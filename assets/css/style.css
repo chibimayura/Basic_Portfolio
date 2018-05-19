@@ -1,10 +1,10 @@
 body {
+	background: url("../../assets/images/geometric.png");
 	background-color: #4aaaa5;
-	background: ;
 	color: #777777;
 }
 
-/*header*/
+/*header style*/
 .headerBorder {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	height: 75px;
@@ -37,7 +37,7 @@ a:link {
 	text-decoration-line: none;
 }
 
-/*content*/
+/*content style*/
 .contentContainer {
 	clear: both;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -58,12 +58,41 @@ h2 {
 	border-bottom: 2px solid #cccccc;
 }
 
-p {
-	margin: 20px 25px;
-	line-height: 30px;
+h3 {
+	font-size: 20px;
+	margin: 5px 25px;
 }
 
-/*footer*/
+img {
+	width: 200px;
+	margin: 25px 25px 0px 25px;
+	float: left;
+}
+
+p {
+	line-height: 30px;
+	margin: 25px;
+}
+
+/*Contact message style*/
+input[type=text] {
+	margin: 10px 25px;
+	padding: 5px;
+	font-size: 20px;
+	height: 40px;
+	width: 900px;
+	box-sizing: border-box;
+	border-color: #cccccc;
+
+}
+
+#message {
+	height: 300px;
+	margin-bottom: 25px;
+	resize: vertical;
+}
+
+/*footer style*/
 footer {
 	background-color: #666666;
 	color: #ffffff;
