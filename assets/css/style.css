@@ -58,7 +58,7 @@ h2 {
 	border-bottom: 2px solid #cccccc;
 }
 
-h3 {
+label {
 	font-size: 20px;
 	margin: 5px 25px;
 }
@@ -75,21 +75,28 @@ p {
 }
 
 /*Contact message style*/
-input[type=text] {
+input[type=text], textarea{
 	margin: 10px 25px;
 	padding: 5px;
 	font-size: 20px;
-	height: 40px;
 	width: 900px;
 	box-sizing: border-box;
-	border-color: #cccccc;
+	border: 1px solid #cccccc;
 
 }
 
-#message {
+textarea {
 	height: 300px;
 	margin-bottom: 25px;
 	resize: vertical;
+}
+
+button {
+	margin: 0px 0px 25px 25px;
+	height: 30px;
+	width: 100px
+	color: #ffffff;
+	background-color: #4aaaa5;
 }
 
 /*footer style*/
