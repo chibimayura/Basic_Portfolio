@@ -63,7 +63,8 @@ a.navi {
 	margin-bottom: 100px;
 	border: 1px solid #cccccc;
 	color: #777777;
-	position: relative;
+	height: auto;
+	overflow: hidden;
 }
 
 h2 {
@@ -73,6 +74,8 @@ h2 {
 	margin: 25px;
 	padding: 25px 0px;
 	border-bottom: 2px solid #cccccc;
+	position: static;
+	clear: both;
 }
 
 label {
@@ -109,7 +112,11 @@ p {
 	width: 300px;
 	margin: 20px 25px;
 	background-color: none;
+}
 
+#image {
+	position: relative;
+	float: left;
 }
 
 /*Contact message style*/
